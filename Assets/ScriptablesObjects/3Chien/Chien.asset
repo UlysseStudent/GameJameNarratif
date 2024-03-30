@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
+  m_Name: Chien
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  text: "Le fant\xF4me d'un chien de garde prot\xE8ge la porte. Ses yeux brillent
+    lorsqu'il aper\xE7oit Twain. Il semble h\xE9siter. Il a l'air immat\xE9riel mais
+    il reste quand m\xEAme tr\xE8s impressionnant. Quelle serait la bonne strat\xE9gie
+    ?"
+  choices:
+  - {fileID: 11400000, guid: e241679b89534c54ab546651ce2a0843, type: 2}
+  - {fileID: 11400000, guid: 7257f0ab548ecff47af4360cef70c1a6, type: 2}
+  - {fileID: 11400000, guid: 0af24afbcd90ef74eab8a062b89e8382, type: 2}
+  - {fileID: 11400000, guid: 8eb2b73148ed20b45bcc8e8e7b78e896, type: 2}
+  - {fileID: 11400000, guid: 7f8efa891748fee4195f17c529f9896a, type: 2}
+  - {fileID: 11400000, guid: a43acc346d1671341961479d7a1fdb73, type: 2}
