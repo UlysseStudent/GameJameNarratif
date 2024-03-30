@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
-  m_Name: Mort
+  m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
+  m_Name: Choice
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 5b41a4924b39ca74784df9fc0ba7567e, type: 3}
-  text: Twain est mort... encore !
-  choices:
-  - {fileID: 11400000, guid: 8a776c744e306ec48a2155d034d4d8cb, type: 2}
+  goToTableau: {fileID: 11400000, guid: d891d85dbb873f24b96c170bcdf08442, type: 2}
+  text: "S'\xE9loigner de cette cabane compl\xE8tement folle et aller \xE0 la porte
+    principale du manoir"

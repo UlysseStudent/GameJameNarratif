@@ -7,5 +7,6 @@ public class TableauData : ScriptableObject
     public Sprite image;
     public string text;
     public List<Choice> choices;
-
+    [HideInInspector] public bool found = false;
+    public bool intermediate;
 }

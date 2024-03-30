@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
   m_Name: Choice
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 11400000, guid: a5f47c6e4034d7f4d90e777971cba97c, type: 2}
+  goToTableau: {fileID: 11400000, guid: 8ba4bd842c9039b4fa00b6627ca517db, type: 2}
   text: Respawn
