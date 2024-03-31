@@ -182,7 +182,6 @@ MonoBehaviour:
   choiceButton: {fileID: 3316030223932782471, guid: 453b6747f28c0784db32468968d02b38, type: 3}
   parent: {fileID: 1175950245}
   _letterDelay: 0.03
-  _spawnButtonDelay: 0.8
 --- !u!82 &11476011
 AudioSource:
   m_ObjectHideFlags: 0

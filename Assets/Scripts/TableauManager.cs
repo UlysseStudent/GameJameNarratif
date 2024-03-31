@@ -23,6 +23,8 @@ public class TableauManager : MonoBehaviour
     public TableauData data;
     public GameObject choiceButton;
     public Transform parent;
+    private int currentSegmentIndex = 0;
+    
 
     static public TableauManager unique;
 
@@ -41,6 +43,11 @@ public class TableauManager : MonoBehaviour
     }
 
     private void Update() {
+
+        if(Input.GetMouseButtonUp(1) && index != dialog.Count - 1) {
+        index = dialog.Count - 1;
+            DisplayReplica(dialog[index]);
+        }
 
         if (Input.GetMouseButtonUp(0) && !_allTextDisplayed) {
             
