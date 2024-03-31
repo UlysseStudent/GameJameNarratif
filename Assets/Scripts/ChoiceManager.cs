@@ -36,6 +36,7 @@ public class ChoiceManager : MonoBehaviour, IPointerEnterHandler,IPointerExitHan
    public void OnClick()
     {
         audioSource.Play();
+        
         TableauManager.unique.ChangeTableau(choiceData.goToTableau);
     }
 
