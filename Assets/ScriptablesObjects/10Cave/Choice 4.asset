@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
-  m_Name: Choice
+  m_Name: Choice 4
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 0}
-  text: 
+  goToTableau: {fileID: 11400000, guid: 3566d5f7fb9259e48a2d9e45e08fca4c, type: 2}
+  text: '"Le lapin ?"'

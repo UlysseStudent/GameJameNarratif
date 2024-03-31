@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
   m_Name: Choice 4
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 11400000, guid: 0c5413fdd55cdb544a228fa66dc3426c, type: 2}
-  text: 
+  goToTableau: {fileID: 11400000, guid: e02b3c89970923f4a84d35a2c90eb3a0, type: 2}
+  text: Risotto

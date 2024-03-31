@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
+  m_Name: "SalleSecr\xE8te1"
+  m_EditorClassIdentifier: 
+  text: "Rizon\xA3Peur:Il fait sombre ici... et froid.$ Twain\xA3Normal:Personne
+    n'est entr\xE9 ici depuis bien longtemps apparemment.$ Rizon\xA3Surprise:Regarde
+    ici ! Il y a des tableaux qui repr\xE9sentent des plats cuisin\xE9s. Et une phrase
+    grav\xE9e en-dessous qui dit \"Quel est mon repas pr\xE9f\xE9r\xE9 ?\"$ Twain\xA3Normal:Je
+    connais ce syst\xE8me de s\xE9curit\xE9, c'est la Question Secr\xE8te. Il faut
+    toucher le bon tableau pour passer.$ Rizon\xA3Normal:Sur lequel on appuie alors
+    ?"
+  choices:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  found: 0

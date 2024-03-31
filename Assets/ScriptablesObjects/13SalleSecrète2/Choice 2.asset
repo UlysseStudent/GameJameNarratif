@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
-  m_Name: Choice
+  m_Name: Choice 2
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 0}
+  goToTableau: {fileID: 11400000, guid: 716381dc8f272994f83a31d0bd8125b3, type: 2}
   text: 

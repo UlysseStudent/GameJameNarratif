@@ -24,7 +24,7 @@ public class TableauManager : MonoBehaviour
     public TableauData data;
     public GameObject choiceButton;
     public Transform parent;
-    AudioSource audio;
+    AudioSource audioSource;
     [SerializeField] List<AudioClip> twainNormals;
 
 
@@ -41,7 +41,7 @@ public class TableauManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
         unique = this;
         ChangeTableau(data);
     }
@@ -84,7 +84,7 @@ public class TableauManager : MonoBehaviour
 
         this.data = data;
         StopAllCoroutines();
-        tableauImage.sprite = Resources.Load<Sprite>($"Sprites/{data.name}");
+        tableauImage.sprite = data.name.Contains("Mort") ? Resources.Load<Sprite>("Sprites/Tableaux/Mort") : Resources.Load<Sprite>($"Sprites/Tableaux/{data.name}");
 
         ParseText();
         
@@ -118,24 +118,23 @@ public class TableauManager : MonoBehaviour
 
     private void DisplayReplica(Replica replica) {
 
-        string audioClip = $"Sounds/{dialog[index].personnage}{dialog[index].emotion}";
+       /* string audioClip = $"Sounds/{dialog[index].personnage}{dialog[index].emotion}";
         if (dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain")
         {
             int randomIndex = Random.Range(0, twainNormals.Count);
-            audio.PlayOneShot(twainNormals[randomIndex], 1f);
+            audioSource.PlayOneShot(twainNormals[randomIndex], 1f);
         }
         else
-            audio.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f);
-
-        avatar.sprite = Resources.Load<Sprite>($"Sprites/{dialog[index].personnage}{dialog[index].emotion}");
-        
-        if(dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain")
-        {
+            audioSource.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f);
+        if (dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain") {
             int randomIndex = Random.Range(0, twainNormals.Count);
-            audio.PlayOneShot(twainNormals[randomIndex], 1f);
+            audioSource.PlayOneShot(twainNormals[randomIndex], 1f);
         }
-        else 
-        audio.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f);
+        else
+            audioSource.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f); */
+
+        avatar.sprite = Resources.Load<Sprite>($"Sprites/Personnages/{dialog[index].personnage}{dialog[index].emotion}");
+        
         
         StartCoroutine(LetterByLetter(dialog[index].message));
     }

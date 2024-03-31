@@ -23,6 +23,6 @@ MonoBehaviour:
     es vraiment nul pour faire la conversation, hein.$ Rizon\xA3Normal:Bon, on va
     o\xF9 maintenant ?"
   choices:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 59d5d10b1508fb14b9d84d1ac639c3e8, type: 2}
+  - {fileID: 11400000, guid: 59d5d10b1508fb14b9d84d1ac639c3e8, type: 2}
   found: 0
