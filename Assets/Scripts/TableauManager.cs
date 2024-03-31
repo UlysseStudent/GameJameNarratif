@@ -11,6 +11,8 @@ public class TableauManager : MonoBehaviour
     public TableauData data;
     public GameObject choiceButton;
     public Transform parent;
+    private int currentSegmentIndex = 0;
+    
 
     static public TableauManager unique;
 
@@ -34,6 +36,22 @@ public class TableauManager : MonoBehaviour
             StartCoroutine(SpawnChoices());
             _allTextDisplayed = true;
         }
+        else if (Input.GetMouseButton(0) && _allTextDisplayed)
+        {
+            print("click");
+            currentSegmentIndex++;
+            if(currentSegmentIndex <= data.texts.Count)
+            {
+                StartCoroutine(LetterByLetter(data.texts[currentSegmentIndex]));
+            }
+            
+           
+            
+        }
+
+
+
+
 
     }
 
@@ -47,7 +65,7 @@ public class TableauManager : MonoBehaviour
         StopAllCoroutines();
         tableauImage.sprite = Resources.Load<Sprite>($"Sprites/{data.name}");
 
-        StartCoroutine(LetterByLetter(data.text));
+        StartCoroutine(LetterByLetter(data.texts[currentSegmentIndex=0]));
     }
 
     IEnumerator LetterByLetter(string text) {
@@ -61,7 +79,11 @@ public class TableauManager : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
         }
         _allTextDisplayed = true;
-        StartCoroutine(SpawnChoices());
+        if (currentSegmentIndex == data.texts.Count-1)
+        {
+            StartCoroutine(SpawnChoices());
+        }
+        
     }
 
     IEnumerator SpawnChoices() {

@@ -28,9 +28,9 @@ public class MapManager : MonoBehaviour
 
         var palier = Instantiate(palierP, transform);
 
-        foreach(var choice in data.choices) {
+      /*  foreach(var choice in data.choices) {
             if (choice.goToTableau.name != "Mort" || !choice.goToTableau.intermediate)
                 DisplayTableau(choice.goToTableau, palier);
-        }
+        } */
     }
 }
