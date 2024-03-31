@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
   m_Name: Respawn
   m_EditorClassIdentifier: 
-  text: 
-  choices: []
+  text: "Twain\xA3Blas\xE9:Soupir...$ Rizon\xA3Narquois:Eeet c'est reparti..."
+  choices:
+  - {fileID: 11400000, guid: 2506c84db1e2fd944b9640cb2991d51c, type: 2}
   found: 0

@@ -16,8 +16,8 @@ MonoBehaviour:
     ici que je trouverai la Mort Vraie.$ Rizon\xA3Surprise:La Mort Vraie ? Tu en
     as marre d'\xEAtre immortel ?$ Twain\xA3Normal:Oui. J'ai v\xE9cu trop longtemps.
     Mon immortalit\xE9 est devenue un fardeau.$ Rizon\xA3Narquois:T'as pas l'impression
-    d'en faire des caisses l\xE0 ?$ Twain\xA3Normal:...$ Rizon\xA3Normal:Et pourquoi
-    la Mort Vraie serait dans cette maison l\xE0 ?$ Twain\xA3Triste:Je n'en sais
+    d'en faire des caisses l\xE0 ?$ Twain\xA3Blas\xE9:...$ Rizon\xA3Normal:Et pourquoi
+    la Mort Vraie serait dans cette maison l\xE0 ?$ Twain\xA3Normal:Je n'en sais
     rien mais... je le sens.$ Rizon\xA3Normal:Okayyy c'est parti alors !"
   choices:
   - {fileID: 11400000, guid: 8d06c2ad63b1dea4395552144e4d28ca, type: 2}

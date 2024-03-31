@@ -20,10 +20,10 @@ MonoBehaviour:
     toucher le bon tableau pour passer.$ Rizon\xA3Normal:Sur lequel on appuie alors
     ?"
   choices:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 98336e792e4156f43b4ae02cc9542834, type: 2}
+  - {fileID: 11400000, guid: 5b36dac15c7ea7c4c92991ed512c45e3, type: 2}
+  - {fileID: 11400000, guid: 0aa1153f09612164cb696c02619a7116, type: 2}
+  - {fileID: 11400000, guid: 45fb0eee69f971a4fb1103c90d08feb7, type: 2}
+  - {fileID: 11400000, guid: be21fd63ea55d6b44a25c02186727d09, type: 2}
+  - {fileID: 11400000, guid: c65b447b8dfd10b4b808d9bf53a97d8a, type: 2}
   found: 0

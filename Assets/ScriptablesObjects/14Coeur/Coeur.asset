@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
   m_Name: Coeur
   m_EditorClassIdentifier: 
-  text: 
-  choices: []
+  text: "Rizon\xA3Surprise:Regarde, il y a quelque chose qui brille au milieu de
+    la pi\xE8ce. Est-ce que c'est... un coeur ? Et...$ Rizon\xA3Peur:Un chat mort
+    ??$ Twain\xA3Surprise:C'est toi Rizon. Et c'est mon coeur.$ Rizon\xA3Peur:Qu'est-ce
+    que \xE7a veut dire ?$ Twain\xA3Normal:C'est la raison pour laquelle je suis
+    immortel et que tu me suis partout. J'avais peur de la mort, alors j'ai arrach\xE9
+    mon coeur et je l'ai mis ici pour que personne ne puisse l'atteindre. Je t'y
+    ai mis aussi pour que tu me tiennes compagnie. Et puis avec les ann\xE9es...
+    j'ai oubli\xE9.$ Rizon\xA3Peur:... qu'est-ce que tu vas faire maintenant ?$ Twain\xA3Normal:Mourir
+    pour la derni\xE8re fois et lib\xE9rer les fant\xF4mes de cette maison. Marie,
+    Tristant, Goodboy... Rizon... adieu."
+  choices:
+  - {fileID: 11400000, guid: 04177a4e068b5f54eb4afdfe64bf4513, type: 2}
   found: 0
