@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Chien
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  text: "Le fant\xF4me d'un chien de garde prot\xE8ge la porte. Ses yeux brillent
-    lorsqu'il aper\xE7oit Twain. Il semble h\xE9siter. Il a l'air immat\xE9riel mais
-    il reste quand m\xEAme tr\xE8s impressionnant. Quelle serait la bonne strat\xE9gie
-    ?"
+  text: "Rizon\xA3Surprise:Est-ce que c'est un chien fant\xF4me ?$ Twain\xA3Surprise:Vous
+    vous connaissez ?$ Rizon\xA3Blas\xE9:Je te demande pardon, mais tous les animaux
+    fant\xF4mes ne se connaissent pas entre eux.$ Twain\xA3Normal:Il a l'air de garder
+    la porte d'entr\xE9e. Comment s'en d\xE9barasser ?"
   choices:
   - {fileID: 11400000, guid: e241679b89534c54ab546651ce2a0843, type: 2}
   - {fileID: 11400000, guid: 7257f0ab548ecff47af4360cef70c1a6, type: 2}
@@ -24,3 +24,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8eb2b73148ed20b45bcc8e8e7b78e896, type: 2}
   - {fileID: 11400000, guid: 7f8efa891748fee4195f17c529f9896a, type: 2}
   - {fileID: 11400000, guid: a43acc346d1671341961479d7a1fdb73, type: 2}
+  found: 0
+  intermediate: 0

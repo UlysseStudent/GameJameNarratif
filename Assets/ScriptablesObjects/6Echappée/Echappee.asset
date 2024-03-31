@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Echappee
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  text: "Twain saute par-dessus une table et se rue vers la fen\xEAtre. Il parvient
-    \xE0 briser un carreau et \xE0 sortir de la cabane qui grince de plus en plus
-    fort au point qu'elle semble pr\xEAte \xE0 s'\xE9crouler. Il lui semble m\xEAme
-    entendre un g\xE9missement de d\xE9pit quand il se projette au sol et atterrit
-    dans l'herbe humide."
+  text: "Rizon\xA3Peur:COUUUURS Twain !$ Twain\xA3Surprise:A\xEFe, il y a des bouts
+    de verre.$ Rizon\xA3Peur:La cabane tremble ! Saute dans l'herbe !$ Twain\xA3Normal:Ouf!
+    C'\xE9tait juste."
   choices:
   - {fileID: 11400000, guid: c5106b7236bdd864ab7c5e9453ffcbc9, type: 2}
   found: 0

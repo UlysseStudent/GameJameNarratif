@@ -27,7 +27,6 @@ public class TableauManager : MonoBehaviour
     static public TableauManager unique;
 
     [SerializeField] private float _letterDelay;
-    [SerializeField] private float _spawnButtonDelay;
     private bool _allTextDisplayed = false;
     private bool _choicesDisplayed = false;
 
@@ -58,7 +57,7 @@ public class TableauManager : MonoBehaviour
         }
 
         if (index == dialog.Count-1 && _allTextDisplayed && !_choicesDisplayed) {
-            StartCoroutine(SpawnChoices());
+            SpawnChoices();
             _choicesDisplayed = true;
         }
     }
@@ -94,13 +93,12 @@ public class TableauManager : MonoBehaviour
         _allTextDisplayed = true;
     }
 
-    IEnumerator SpawnChoices() {
+    private void SpawnChoices() {
         
         for (int i = 0; i < data.choices.Count; i++)
         {
             GameObject choice = Instantiate(choiceButton, parent);
             choice.GetComponent<ChoiceManager>().choiceData = data.choices[i];
-            yield return new WaitForSeconds(_spawnButtonDelay);
         }
     }
 
@@ -110,6 +108,8 @@ public class TableauManager : MonoBehaviour
     }
 
     private void ParseText() {
+        dialog.Clear();
+
         string[] lines = data.text.Split('$');
 
         foreach (var line in lines) {

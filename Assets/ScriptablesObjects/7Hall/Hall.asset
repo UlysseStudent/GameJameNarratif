@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Hall
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  text: "Le chien semble au comble du bonheur : sa queue fant\xF4me fr\xE9tille sans
-    discontiuer. Twain lui donne du Goodboy encore un peu, puis finit par entrer
-    dans le manoir."
+  text: "Rizon\xA3Blas\xE9:Que c'est con un chien quand m\xEAme.$ Twain\xA3Normal:Arr\xEAte,
+    il avait l'air tellement heureux.$ Rizon\xA3Normal:En tout cas nous voil\xE0
+    dans ta maison. Est-ce que tu sens o\xF9 se trouve la Mort Vraie ?$ Twain\xA3Normal:Pas
+    du tout, mais essayons d'aller par-l\xE0."
   choices:
   - {fileID: 11400000, guid: 44c987ce60650894c96cc65be3240cde, type: 2}
   - {fileID: 11400000, guid: e10e9477b6af23349903224ae9fcbedc, type: 2}

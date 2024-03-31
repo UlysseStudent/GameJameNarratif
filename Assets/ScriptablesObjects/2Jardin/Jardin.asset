@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Jardin
   m_EditorClassIdentifier: 
   image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  text: "Twain fait quelques pas dans le parc au milieu des arbres. Il tombe sur
-    une petite cabane et une vieille niche. Sur une gamelle en fer dont les restes
-    d\xE9gagent une odeur abominable, le mot \"GOODBOY\" est plaqu\xE9 en lettres
-    dor\xE9es."
+  text: "Twain\xA3Normal:Je vois une cabane et une niche.$ Rizon\xA3Blas\xE9:H\xE9
+    regarde, il y a marqu\xE9 GOODBOY en lettres d'or sur la gamelle. Qui appelerait
+    son chien comme \xE7a ?$ Twain\xA3Normal:... c'est vrai.$ Rizon\xA3Blas\xE9:Beurk,
+    il reste de la p\xE2t\xE9 moisie."
   choices:
   - {fileID: 11400000, guid: 9c3cbe51383286c40a5245deb7e84875, type: 2}
   - {fileID: 11400000, guid: ab6e2c6e65330fd49ae9c8c3f9a2e7a8, type: 2}
+  found: 0
+  intermediate: 0
