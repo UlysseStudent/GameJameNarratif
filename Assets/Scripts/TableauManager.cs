@@ -53,13 +53,13 @@ public class TableauManager : MonoBehaviour
             DisplayReplica(dialog[index]);
         }
 
-        if (Input.GetMouseButtonUp(0) && !_allTextDisplayed) {
+        if (Input.GetMouseButtonDown(0) && !_allTextDisplayed) {
             
             StopAllCoroutines();
             tableauText.text = dialog[index].message;
             _allTextDisplayed = true;
         }
-        else if (Input.GetMouseButtonUp(0) && _allTextDisplayed) {
+        else if (Input.GetMouseButtonDown(0) && _allTextDisplayed) {
             
             index++;
             if (index < dialog.Count) {
@@ -74,6 +74,7 @@ public class TableauManager : MonoBehaviour
     }
 
     public void ChangeTableau(TableauData data) {
+        
         _allTextDisplayed = false;
         _choicesDisplayed = false;
 
@@ -86,8 +87,10 @@ public class TableauManager : MonoBehaviour
         tableauImage.sprite = Resources.Load<Sprite>($"Sprites/{data.name}");
 
         ParseText();
-
+        
         DisplayReplica(dialog[index=0]);
+        
+
     }
 
     IEnumerator LetterByLetter(string text) {
@@ -114,8 +117,18 @@ public class TableauManager : MonoBehaviour
     }
 
     private void DisplayReplica(Replica replica) {
-        avatar.sprite = Resources.Load<Sprite>($"Sprites/{dialog[index].personnage}{dialog[index].emotion}");
+
         string audioClip = $"Sounds/{dialog[index].personnage}{dialog[index].emotion}";
+        if (dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain")
+        {
+            int randomIndex = Random.Range(0, twainNormals.Count);
+            audio.PlayOneShot(twainNormals[randomIndex], 1f);
+        }
+        else
+            audio.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f);
+
+        avatar.sprite = Resources.Load<Sprite>($"Sprites/{dialog[index].personnage}{dialog[index].emotion}");
+        
         if(dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain")
         {
             int randomIndex = Random.Range(0, twainNormals.Count);
