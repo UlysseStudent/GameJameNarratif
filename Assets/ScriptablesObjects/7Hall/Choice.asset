@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: cc8478995d9130842a2e2db2751e9ffc, type: 2}
-  text: Monter les escaliers
+  text: Etage

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice 2
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: 35b815154896ca540ba11b5e017c1f74, type: 2}
-  text: Prendre la porte de gauche
+  text: Cave

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice 1
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: cc0759357e994854098522ae182f6f98, type: 2}
-  text: Prendre la porte de droite
+  text: Salon
