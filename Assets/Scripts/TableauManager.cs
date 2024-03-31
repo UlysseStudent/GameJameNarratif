@@ -24,8 +24,10 @@ public class TableauManager : MonoBehaviour
     public TableauData data;
     public GameObject choiceButton;
     public Transform parent;
-    private int currentSegmentIndex = 0;
-    
+    AudioSource audio;
+    [SerializeField] List<AudioClip> twainNormals;
+
+
 
     static public TableauManager unique;
 
@@ -39,6 +41,7 @@ public class TableauManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         unique = this;
         ChangeTableau(data);
     }
@@ -92,7 +95,7 @@ public class TableauManager : MonoBehaviour
         for (int i = 0; i< text.Length+1; i++) {
             tableauText.text = text.Substring(0, i);
 
-            GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("Sounds/typewriter"));
+            GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("Sounds/typewriter"),0.05f);
 
             yield return new WaitForSeconds(_letterDelay);
             if (text.Substring(0, i).EndsWith(".")|| text.Substring(0, i).EndsWith("?") || text.Substring(0, i).EndsWith("!"))
@@ -112,6 +115,15 @@ public class TableauManager : MonoBehaviour
 
     private void DisplayReplica(Replica replica) {
         avatar.sprite = Resources.Load<Sprite>($"Sprites/{dialog[index].personnage}{dialog[index].emotion}");
+        string audioClip = $"Sounds/{dialog[index].personnage}{dialog[index].emotion}";
+        if(dialog[index].emotion == "Normal" && dialog[index].personnage == "Twain")
+        {
+            int randomIndex = Random.Range(0, twainNormals.Count);
+            audio.PlayOneShot(twainNormals[randomIndex], 1f);
+        }
+        else 
+        audio.PlayOneShot(Resources.Load<AudioClip>(audioClip), 1f);
+        
         StartCoroutine(LetterByLetter(dialog[index].message));
     }
 
