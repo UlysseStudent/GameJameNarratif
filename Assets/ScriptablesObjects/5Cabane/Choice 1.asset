@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice 1
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: 26d1272587adcdc40b0c573d075eb908, type: 2}
-  text: Essayer de forcer la porte
+  text: "Explorer la cabane malgr\xE9 tout"

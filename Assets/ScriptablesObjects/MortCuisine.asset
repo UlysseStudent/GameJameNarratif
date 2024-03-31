@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Twain\xA3Mort:MORT TABASS\xC9 PAR DES CASSEROLES"
   choices:
-  - {fileID: 11400000, guid: 8a776c744e306ec48a2155d034d4d8cb, type: 2}
+  - {fileID: 11400000, guid: 2506c84db1e2fd944b9640cb2991d51c, type: 2}
   found: 0
