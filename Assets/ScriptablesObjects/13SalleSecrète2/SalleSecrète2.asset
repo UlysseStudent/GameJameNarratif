@@ -26,10 +26,10 @@ MonoBehaviour:
     savoir. Regarde l\xE0, il y a une derni\xE8re \xE9nigme. \"Comment s'appelle
     mon fils ?\""
   choices:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 98f53c0f915ab8745937635feecc5dbd, type: 2}
+  - {fileID: 11400000, guid: 391a60b13cf4bba479ed90dd66d8be85, type: 2}
+  - {fileID: 11400000, guid: df7312404ab2793498a63cbde7ff5019, type: 2}
+  - {fileID: 11400000, guid: 93e5e250f7cab3b44a5c6619995f2a59, type: 2}
+  - {fileID: 11400000, guid: 03f1d1a894cb52441ac0e1067754839b, type: 2}
+  - {fileID: 11400000, guid: 1e6781212daf0a147a545061333f3124, type: 2}
   found: 0

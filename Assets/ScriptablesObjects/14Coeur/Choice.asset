@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
   m_Name: Choice
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 0}
-  text: 
+  goToTableau: {fileID: 11400000, guid: 31b2ba242d0aa464c95253ceeb437b3c, type: 2}
+  text: Planter une dague dans le coeur palpitant.
