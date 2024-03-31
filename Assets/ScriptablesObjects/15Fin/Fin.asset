@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
-  m_Name: Manoir
+  m_Name: Fin
   m_EditorClassIdentifier: 
-  text: "Twain\xA3Normal:Ok, allons trouver la Mort Vraie!$ Rizon\xA3Narquois:\xC7a
-    fait des ann\xE9es que je ne t'ai pas vu aussi motiv\xE9...$ Rizon\xA3Normal:Par
-    o\xF9 on commence alors ?"
-  choices:
-  - {fileID: 11400000, guid: 5ab1ba115c531ca44b68fe1c8f36d3b0, type: 2}
-  - {fileID: 11400000, guid: 6c200004b1047e042b4e2d1a9a450090, type: 2}
+  text: "Fin\xA3Normal:Twain et Rizon ont enfin trouv\xE9 le repos. Merci d'avoir
+    jou\xE9 <3$ Ulysse\xA3Normal:D\xE9veloppement et Game Design - Ulysse Coline\xA3Normal:Ecriture
+    et d\xE9veloppement - Coline"
+  choices: []
   found: 0

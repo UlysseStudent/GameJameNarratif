@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
   m_Name: Salon
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  text: 
-  choices: []
+  text: "Twain\xA3Normal:Il y a une femme dans ce salon. Ou un fant\xF4me de femme
+    ? En tout cas, j'ai l'impression de l'avoir d\xE9j\xE0 vue quelque part...$ Marie\xA3Nomal:...$
+    Twain\xA3Normal:Bonjour ?$ Marie\xA3Nomal:Qu'est-ce que tu viens faire ici ?$
+    Twain\xA3Normal:Je ne suis pas l\xE0 pour vous emb\xEAter. Je viens chercher
+    la Mort Vraie.$ Marie\xA3Normal:Ah... je vois.$ Twain\xA3Surprise:Vous pouvez
+    m'aider ?$ Marie\xA3Normal:Il n'y a que toi qui sait o\xF9 elle est$ Twain\xA3Blas\xE9:...
+    je vois. Et qu'est-ce que vous cuisinez de bon ?$ Marie\xA3Normal:... un gratin
+    dauphinois.$ Twain\xA3Surprise:Oh, c'est mon plat pr\xE9f\xE9r\xE9.$ Rizon\xA3Narquois:Tu
+    es vraiment nul pour faire la conversation, hein.$ Rizon\xA3Normal:Bon, on va
+    o\xF9 maintenant ?"
+  choices:
+  - {fileID: 0}
+  - {fileID: 0}
   found: 0
-  intermediate: 0

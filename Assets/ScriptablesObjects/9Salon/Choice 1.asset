@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
-  m_Name: Choice 2
+  m_Name: Choice 1
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 11400000, guid: dd1e1e99bb31cea42902cc653514ecf9, type: 2}
-  text: "Jeter un b\xE2ton au loin"
+  goToTableau: {fileID: 11400000, guid: 2fc286c35c7ff9947a3d4a36c0769079, type: 2}
+  text: Aller dans la cuisine

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
   m_Name: Choice 3
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 11400000, guid: 9849310cd73ed084a968212dd9e5061f, type: 2}
+  goToTableau: {fileID: 11400000, guid: dd1e1e99bb31cea42902cc653514ecf9, type: 2}
   text: " Faire des bruits de bouche \xE0 mi-chemin entre le bisou et le tchipp"

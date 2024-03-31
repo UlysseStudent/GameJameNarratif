@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
   m_Name: Etage
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  text: 
-  choices: []
+  text: "Twain\xA3Normal:Il y a un vieil homme assis sur le lit. Il n'a pas l'air
+    tr\xE8s mat\xE9riel.$ Tristan\xA3Normal:Toi...$ Twain\xA3Surprise:On se conna\xEEt
+    ?$ Tristan\xA3Normal:Je sais ce que tu es venu chercher.$ Twain\xA3Surprise:Ah
+    oui ?$ Tristan\xA3Normal:...$ Rizon\xA3Surprise:On dirait qu'il ne veut plus
+    te parler.$ Twain\xA3Blas\xE9:... et bien fouillons la pi\xE8ce.$ Twain\xA3Normal:Des
+    v\xEAtements, de la literie... rien de bien int\xE9ressant. Retournons au hall."
+  choices:
+  - {fileID: 11400000, guid: ec427448a3849ce4dbfeea663e0432ad, type: 2}
   found: 0
-  intermediate: 0
