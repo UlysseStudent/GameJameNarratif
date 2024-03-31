@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cave
   m_EditorClassIdentifier: 
   text: "Rizon\xA3Peur:Ah, \xE7a descend vers une cave.$ Twain\xA3Normal:Est-ce que
-    c'est une gargouille qui garde la porte ?$ Twain\xA3Surpris:Ah ! Elle s'anime.$
+    c'est une gargouille qui garde la porte ?$ Twain\xA3Surprise:Ah ! Elle s'anime.$
     Gargouille\xA3Normal:Quel est l'animal pr\xE9f\xE9r\xE9 du jardinier ?$ Twain\xA3Normal:Hmm..."
   choices:
   - {fileID: 11400000, guid: 7743a10e243e7234ab2063c51b65b0b5, type: 2}

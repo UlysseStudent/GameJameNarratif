@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Rizon\xA3Peur:C'\xE9tait quoi ce bruit ?$ Twain\xA3Normal:Tu parles de ces
     horribles claquements ?$ Rizon\xA3Peur:Ce sont les casseroles qui nous attaquent
-    !$ Twain\xA3Normal:J'ai toujours d\xE9test\xE9 les cuisines."
+    !$ Twain\xA3Normal:J'ai toujours d\xE9test\xE9 les cuisines. Oh regarde, il y
+    a des tableaux d'enfants. Titouan, blond et petit... Tristan, brun, petit et
+    avec des t\xE2ches de rousseur... Th\xE9odore, brun et grand...$ Rizon\xA3Peur:ON
+    S'EN FICHE, FUIS !"
   choices:
   - {fileID: 11400000, guid: 00a6ef75b6c5f7445a94ab09e9c0728b, type: 2}
   found: 0

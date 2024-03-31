@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
-  m_Name: Fin
+  m_Name: MortEscalier
   m_EditorClassIdentifier: 
-  text: "Twain\xA3Normal:Twain et Rizon ont enfin trouv\xE9 le repos. Merci d'avoir
-    jou\xE9 <3$ Ulysse\xA3Normal:D\xE9veloppement et Game Design - Ulysse$Coline\xA3Normal:Ecriture
-    et d\xE9veloppement - Coline$Sol\xE8ne\xA3Normal:Dessins - Sol\xE8ne$Nicolas\xA3Normal:Sons
-    et Consulting - Nicolas"
-  choices: []
+  text: "Twain\xA3Surprise:En se dirigeant vers l'escalier, Twain se prend les pieds
+    dans le tapis et d\xE9gringole dans les escaliers.$ Twain\xA3Mort:MORT PAR CHUTE
+    DANS LES ESCALIERS"
+  choices:
+  - {fileID: 11400000, guid: 2506c84db1e2fd944b9640cb2991d51c, type: 2}
   found: 0

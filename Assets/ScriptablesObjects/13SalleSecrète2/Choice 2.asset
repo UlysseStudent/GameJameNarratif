@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice 2
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: 716381dc8f272994f83a31d0bd8125b3, type: 2}
-  text: Terry
+  text: Grand, cheveux noirs

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309f9aae270a9e4ea5cdfd27c1d749b, type: 3}
   m_Name: Choice
   m_EditorClassIdentifier: 
-  goToTableau: {fileID: 11400000, guid: 3bcfc0162313d4547bfc073843350c10, type: 2}
+  goToTableau: {fileID: 11400000, guid: 35d23187898d0324a9c1eafaeb694a7d, type: 2}
   text: Retourner dans le hall

@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lui donner une croquette
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c5c1cbaa1a1d7b34cbbd7e7f3555f99a, type: 2}
+  m_sharedMaterial: {fileID: 1310941317434168007, guid: c5c1cbaa1a1d7b34cbbd7e7f3555f99a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.05
+  m_fontSize: 53.3
   m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 1

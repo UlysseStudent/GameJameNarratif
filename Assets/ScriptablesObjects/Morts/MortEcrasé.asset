@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
-  m_Name: Respawn
+  m_Name: "MortEcras\xE9"
   m_EditorClassIdentifier: 
-  text: "Twain\xA3Blas\xE9:Soupir... On dirait que je suis encore mort... et que
-    j'ai tout oubli\xE9$Rizon\xA3Surprise:\xC7a veut dire qu'on doit recommencer
-    de z\xE9ro ?$Twain\xA3Blas\xE9:Apparemment.$Rizon\xA3Narquois:Eeet c'est reparti..."
+  text: "Twain\xA3Normal:Allez, retournons au... *clic*$ Twain\xA3Surprise: Clic
+    ? Comment \xE7a clic ?$ Twain\xA3Surprise: Une dalle s'enfonce sous le pied de
+    Twain et, aussit\xF4t, un rocher d\xE9boule du couloir droit sur lui$ Twain\xA3Mort:MORT
+    PAR ECRASEMENT DE ROCHER"
   choices:
-  - {fileID: 11400000, guid: 9bbd51df2ae8b544d954213e692339fd, type: 2}
+  - {fileID: 11400000, guid: 2506c84db1e2fd944b9640cb2991d51c, type: 2}
   found: 0
