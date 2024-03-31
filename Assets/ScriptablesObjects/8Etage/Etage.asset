@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Twain\xA3Normal:Il y a un vieil homme assis sur le lit. Il n'a pas l'air
     tr\xE8s mat\xE9riel.$ Tristan\xA3Normal:Toi...$ Twain\xA3Surprise:On se conna\xEEt
-    ?$ Tristan\xA3Normal:Je sais ce que tu es venu chercher.$ Twain\xA3Surprise:Ah
+    ?$ Tristan\xA3Normal:C'est moi, Tristan.$ Twain\xA3Normal:Enchant\xE9, j'imagine.$
+    Tristan\xA3Normal:... je sais ce que tu es venu chercher.$ Twain\xA3Surprise:Ah
     oui ?$ Tristan\xA3Normal:...$ Rizon\xA3Surprise:On dirait qu'il ne veut plus
     te parler.$ Twain\xA3Blas\xE9:... et bien fouillons la pi\xE8ce.$ Twain\xA3Normal:Des
     v\xEAtements, de la literie... rien de bien int\xE9ressant. Retournons au hall."

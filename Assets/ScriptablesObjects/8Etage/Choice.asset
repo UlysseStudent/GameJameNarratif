@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 11400000, guid: 3bcfc0162313d4547bfc073843350c10, type: 2}
-  text: Retourne au hall
+  text: Retourner au hall
