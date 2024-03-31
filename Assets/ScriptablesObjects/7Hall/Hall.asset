@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Hall
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  text: blabla
-  choices: []
+  text: "Le chien semble au comble du bonheur : sa queue fant\xF4me fr\xE9tille sans
+    discontiuer. Twain lui donne du Goodboy encore un peu, puis finit par entrer
+    dans le manoir."
+  choices:
+  - {fileID: 11400000, guid: 44c987ce60650894c96cc65be3240cde, type: 2}
+  - {fileID: 11400000, guid: e10e9477b6af23349903224ae9fcbedc, type: 2}
+  - {fileID: 11400000, guid: 25188de113f2ac34faaf57a384ff66b7, type: 2}
+  found: 0
+  intermediate: 0

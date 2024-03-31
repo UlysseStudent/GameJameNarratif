@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e479e22172645d4aa0f6d975b8f5417, type: 3}
+  m_Name: Cave
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  text: "La porte m\xE8ne \xE0 des escaliers qui descendent jusqu'\xE0 une cave.
+    Lorsque Twain arrive, la gargouille devant la porte s'anime : il l\xE8ve la t\xEAte
+    et ses yeux se mettent \xE0 rougeoyer.  \"Quel est mon nom ?\" demande-t-elle
+    d'une voix s\xE9pulcrale.  Que doit faire Twain ?"
+  choices: []
+  found: 0
+  intermediate: 0

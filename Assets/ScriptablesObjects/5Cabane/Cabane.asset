@@ -15,7 +15,11 @@ MonoBehaviour:
   image: {fileID: 0}
   text: "A peine Twain a-t-il fait un pas dans la pi\xE8ce que la porte claque brutalement
     derri\xE8re lui et que les planches se mettent \xE0 grincer comme si la cabane...
-    riait ?"
+    riait ? Il y a des outils de jardinage partout, mais \xE9galement des petits
+    lapins en bois scupt\xE9s. Twain ne passe pas plus de temps \xE0 observer la
+    pi\xE8ce car les murs semblent d\xE9j\xE0 se refermer sur lui."
   choices:
   - {fileID: 11400000, guid: 7721f90fda43b2b428e4360901d7f35c, type: 2}
   - {fileID: 11400000, guid: b69b7b7603cc4f74fbfadf79e4232595, type: 2}
+  found: 0
+  intermediate: 0
