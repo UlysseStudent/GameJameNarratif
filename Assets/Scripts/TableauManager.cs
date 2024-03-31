@@ -10,6 +10,7 @@ public class Replica {
         this.personnage = personnage;
         this.emotion = emotion;
     }
+
     public string personnage;
     public string message;
     public string emotion;
@@ -125,6 +126,5 @@ public class TableauManager : MonoBehaviour
 
             dialog.Add(new Replica(character[0].Trim(), character[1].Trim(), parts[1].Trim()));
         }
-
     }
 }
