@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ChoiceRespawn
   m_EditorClassIdentifier: 
   goToTableau: {fileID: 0}
-  text: 
+  text: Respawn
